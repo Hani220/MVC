@@ -8,7 +8,7 @@ namespace MVC
             var app = builder.Build();
 
             app.MapGet("/", () => "Hello World!");
-            Console.Write("Hello Dev");
+            Console.Write("Hello from session one");
 
             app.Run();
         }
